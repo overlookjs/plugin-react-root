@@ -11,17 +11,9 @@
 // Exports
 
 module.exports = function itExports(reactRootPlugin) {
-	describe.skip('methods', () => { // eslint-disable-line jest/no-disabled-tests
-		it.each([
-			'TEMP'
-		])('%s', (key) => {
-			expect(reactRootPlugin[key]).toBeFunction();
-		});
-	});
-
 	describe('symbols', () => {
 		it.each([
-			'TEMP'
+			'GET_REACT_ROOT_FILE'
 		])('%s', (key) => {
 			expect(typeof reactRootPlugin[key]).toBe('symbol');
 		});

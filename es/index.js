@@ -10,5 +10,5 @@ import reactRootPlugin from '../lib/index.js';
 
 export default reactRootPlugin;
 export const {
-	TEMP
+	GET_REACT_ROOT_FILE
 } = reactRootPlugin;

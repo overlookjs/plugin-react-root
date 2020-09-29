@@ -1,6 +1,6 @@
 {
   "name": "@overlook/plugin-react-root",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Overlook framework React root plugin",
   "main": "index.js",
   "module": "es/index.js",
@@ -9,11 +9,14 @@
       "import": "./es/index.js",
       "require": "./index.js"
     },
-    "./es": "./es/index.js"
+    "./es": "./es/index.js",
+    "./react-dom": "./react-dom/index.js",
+    "./react-dom/server": "./react-dom/server.js"
   },
   "files": [
     "lib/**/*.js",
-    "es/**/*.js"
+    "es/**/*.js",
+    "react-dom/**/*.js"
   ],
   "sideEffects": false,
   "author": {
@@ -27,10 +30,13 @@
     "url": "https://github.com/overlookjs/plugin-react-root/issues"
   },
   "dependencies": {
-    "@overlook/plugin": "^0.4.1"
+    "@overlook/plugin": "^0.4.1",
+    "@overlook/plugin-react": "0.0.2",
+    "@overlook/plugin-static": "^0.3.2",
+    "@overlook/route": "^0.6.5",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@overlook/route": "^0.6.5",
     "@overlookmotel/eslint-config": "^7.2.1",
     "@overlookmotel/eslint-config-jest": "^4.1.1",
     "@overlookmotel/eslint-config-node": "^2.1.2",
