@@ -1,6 +1,6 @@
 {
   "name": "@overlook/plugin-react-root",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Overlook framework React root plugin",
   "main": "index.js",
   "module": "es/index.js",
