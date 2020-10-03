@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0
+
+Breaking changes:
+
+* Rewrite
+
 ## 0.0.2
 
 Features:
