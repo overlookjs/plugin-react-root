@@ -13,7 +13,12 @@
 module.exports = function itExports(reactRootPlugin) {
 	describe('symbols', () => {
 		it.each([
-			'GET_REACT_ROOT_FILE'
+			'REACT_ROOT_FILE',
+			'GET_REACT_ROOT_FILE',
+			'CREATE_REACT_ROOT_FILE',
+			'REACT_HTML_FILE',
+			'GET_REACT_HTML_FILE',
+			'CREATE_REACT_HTML_FILE'
 		])('%s', (key) => {
 			expect(typeof reactRootPlugin[key]).toBe('symbol');
 		});

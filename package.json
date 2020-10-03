@@ -31,10 +31,16 @@
   },
   "dependencies": {
     "@overlook/plugin": "^0.4.1",
-    "@overlook/plugin-react": "0.0.2",
+    "@overlook/plugin-build": "^0.1.3",
+    "@overlook/plugin-bundle": "0.0.1",
+    "@overlook/plugin-load": "^0.4.4",
+    "@overlook/plugin-react": "0.2.1",
     "@overlook/plugin-static": "^0.3.2",
     "@overlook/route": "^0.6.5",
-    "react-dom": "^16.13.1"
+    "@overlook/util-find-parent": "^0.1.0",
+    "escape-html": "^1.0.3",
+    "react-dom": "^16.13.1",
+    "simple-invariant": "^2.0.0"
   },
   "devDependencies": {
     "@overlookmotel/eslint-config": "^7.2.1",

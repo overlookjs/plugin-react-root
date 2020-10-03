@@ -10,5 +10,10 @@ import reactRootPlugin from '../lib/index.js';
 
 export default reactRootPlugin;
 export const {
-	GET_REACT_ROOT_FILE
+	REACT_ROOT_FILE,
+	GET_REACT_ROOT_FILE,
+	CREATE_REACT_ROOT_FILE,
+	REACT_HTML_FILE,
+	GET_REACT_HTML_FILE,
+	CREATE_REACT_HTML_FILE
 } = reactRootPlugin;
